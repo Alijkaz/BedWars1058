@@ -739,6 +739,7 @@ public class BedWars extends JavaPlugin {
         Plugin plugin = Bukkit.getPluginManager().getPlugin("SlimeWorldManager");
         if (plugin == null) return false;
         switch (plugin.getDescription().getVersion()) {
+            case "2.3.0":
             case "2.2.0":
             case "2.1.3":
             case "2.1.2":
